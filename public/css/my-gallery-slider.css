@@ -1,0 +1,15 @@
+.my-gallery-plugin-title{
+    font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    color:rgba(0,0,0,0.6);
+    margin-bottom:10px;
+}
+.my-gallery-plugin-container{
+    margin:40px 0 50px;
+  ;
+}
+
+.my-gallery-plugin-container img{
+    max-width: 100%;
+    height: auto;
+}

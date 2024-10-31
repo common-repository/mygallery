@@ -1,0 +1,226 @@
+body {
+    background-color:#f1f1f1 !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+a:focus{
+    box-shadow: none !important;
+}
+button:focus{
+    box-shadow: none !important;
+}
+.download-indicator{
+    top:0px !important;
+}
+.screen-reader-text{
+    display: none !important;
+}
+.my-slider-gallery-add-page{
+    min-width:375px;
+}
+
+.tabs-big{
+    width:50%;
+}
+
+.tab-content{
+    background-color: #fff;
+    min-height: 140px;
+    border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    border-top:none;
+    padding:10px;
+}
+.vertical-tab-panel{
+    min-height: 600px;
+}
+.tab-pane{
+    height:150px;
+}
+.my-gallery-card{
+  
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  
+}
+.hide-card{
+  display: none;
+}
+.nav-link{
+    box-shadow: none !important;
+}
+.fo{
+    font-family: 'fontello';
+    font-size:25px;
+    line-height: 25px;
+}
+
+.fo-facebook:before{
+
+    content:'\F230';
+}
+.fo-github:before{
+   
+    content:"\F113";
+}
+.fo-twitter:before{
+    
+    content:"\F099";
+}
+.input-group select{
+    height:38px;
+}
+ul,li{
+    list-style-type: none;
+}
+.switch label .lever{
+content: "";
+    display: inline-block;
+    position: relative;
+    background-color: #818181;
+    border-radius: .9375rem;
+    margin-right: .625rem;
+    vertical-align: middle;
+    margin: 0 1rem;
+    width: 1.8rem;
+    height: .7rem;
+    transition: background .3s ease;
+}
+.switch label .lever:after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-color: #f1f1f1;
+    border-radius: 1.3125rem;
+    left: -.3125rem;
+    top: -.1875rem;
+    box-shadow: 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.4);
+    width: 1rem;
+    height: 1rem;
+    transition: left .3s ease,background .3s ease,box-shadow 1s ease;
+}
+
+.switch label .lever.on:after{
+    background-color: #007bff;
+    left:1.1rem;
+}
+.switch label .lever.on{
+    background-color: #dbdbdb
+}
+
+#wpcontent{
+    padding-left: 0 !important;
+}
+
+.config-table th{
+    font-size:14px;
+    vertical-align: top;
+
+}
+.config-table td{
+    padding-bottom:10px;
+}
+
+.my-gallery-narrow-select{
+    width:64px !important; 
+    height:32px !important;
+}
+
+
+.my-gallery-shortcode{
+    position: relative;
+}
+.my-gallery-shortcode code {
+    display: block;
+    color:#000;
+}
+.code-copy-to-clipboard :before{
+    content: "\f481";
+}
+.code-copy-to-clipboard{
+    position: absolute;
+    top:5px;
+    right:5px;
+} 
+
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+     font-size: 28px;
+     color: gold;
+  }
+  
+  .rating > span:before
+   {
+     content: "\2605";
+     position: absolute;
+     left: 0; 
+    color: gold;
+  }
+
+  .tab-content > nav {
+      background: #f1f1f1 !important;
+  }
+
+.closed{
+    visibility:hidden;
+}
+.notice{
+    min-height: 40px;
+}
+#close-message:after{
+    cursor:pointer;
+    line-height: 40px;
+    font-size:25px;
+    color:#007bff;
+    content:"\E803";
+
+}
+.rating{
+    cursor:pointer;
+}
+.input-title{
+    width:100%
+}
+.input-classnames{
+    width:100%;
+}
+.my-gallery-header-banner{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.images-pane li{
+    cursor:grab;
+}
+.dragging-cursor {
+    pointer-events: auto !important;
+    cursor:move;
+}
+.dragging-cursor div{
+    pointer-events: none !important;
+    
+}
+@media screen and (max-width: 782px){
+    .wp-responsive-open #wpbody{
+        right:-11.9em !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .my-gallery-header-banner img{
+       position:relative;
+       left:-144px;
+    }
+}

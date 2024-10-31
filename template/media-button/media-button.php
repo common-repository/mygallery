@@ -1,0 +1,1 @@
+<div class="button-container" id="my-gallery-media-button"><div class='button'><span class="wp-media-buttons-icon dashicons-my-gallery"></span><?php echo esc_html__('Add My Slider Gallery') ?></div></div>
